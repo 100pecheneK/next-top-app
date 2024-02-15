@@ -1,0 +1,25 @@
+.rating {
+	display: inline-block;
+}
+
+.fill {
+	fill: var(--primary);
+}
+
+.star {
+	margin-right: 15px;
+
+	transition: all 0.2s;
+}
+
+.star:focus {
+	outline: none;
+}
+
+.star:focus-visible {
+	outline: auto;
+}
+
+.editable {
+	cursor: pointer;
+}
